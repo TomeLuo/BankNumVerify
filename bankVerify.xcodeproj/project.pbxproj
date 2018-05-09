@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C395733320A2E24600533D22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C395733220A2E24600533D22 /* AppDelegate.m */; };
+		C395733620A2E24600533D22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C395733520A2E24600533D22 /* ViewController.m */; };
+		C395733920A2E24600533D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C395733720A2E24600533D22 /* Main.storyboard */; };
+		C395733B20A2E24600533D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C395733A20A2E24600533D22 /* Assets.xcassets */; };
+		C395733E20A2E24600533D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C395733C20A2E24600533D22 /* LaunchScreen.storyboard */; };
+		C395734120A2E24600533D22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C395734020A2E24600533D22 /* main.m */; };
+		C395734B20A2E24700533D22 /* bankVerifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C395734A20A2E24700533D22 /* bankVerifyTests.m */; };
+		C395735620A2E24700533D22 /* bankVerifyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C395735520A2E24700533D22 /* bankVerifyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C395734720A2E24600533D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C395732620A2E24600533D22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C395732D20A2E24600533D22;
+			remoteInfo = bankVerify;
+		};
+		C395735220A2E24700533D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C395732620A2E24600533D22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C395732D20A2E24600533D22;
+			remoteInfo = bankVerify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C395732E20A2E24600533D22 /* bankVerify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bankVerify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C395733120A2E24600533D22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C395733220A2E24600533D22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C395733420A2E24600533D22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C395733520A2E24600533D22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C395733820A2E24600533D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C395733A20A2E24600533D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C395733D20A2E24600533D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C395733F20A2E24600533D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C395734020A2E24600533D22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C395734620A2E24600533D22 /* bankVerifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bankVerifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C395734A20A2E24700533D22 /* bankVerifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bankVerifyTests.m; sourceTree = "<group>"; };
+		C395734C20A2E24700533D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C395735120A2E24700533D22 /* bankVerifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bankVerifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C395735520A2E24700533D22 /* bankVerifyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bankVerifyUITests.m; sourceTree = "<group>"; };
+		C395735720A2E24700533D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C395732B20A2E24600533D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C395734320A2E24600533D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C395734E20A2E24700533D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C395732520A2E24600533D22 = {
+			isa = PBXGroup;
+			children = (
+				C395733020A2E24600533D22 /* bankVerify */,
+				C395734920A2E24600533D22 /* bankVerifyTests */,
+				C395735420A2E24700533D22 /* bankVerifyUITests */,
+				C395732F20A2E24600533D22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C395732F20A2E24600533D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C395732E20A2E24600533D22 /* bankVerify.app */,
+				C395734620A2E24600533D22 /* bankVerifyTests.xctest */,
+				C395735120A2E24700533D22 /* bankVerifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C395733020A2E24600533D22 /* bankVerify */ = {
+			isa = PBXGroup;
+			children = (
+				C395733120A2E24600533D22 /* AppDelegate.h */,
+				C395733220A2E24600533D22 /* AppDelegate.m */,
+				C395733420A2E24600533D22 /* ViewController.h */,
+				C395733520A2E24600533D22 /* ViewController.m */,
+				C395733720A2E24600533D22 /* Main.storyboard */,
+				C395733A20A2E24600533D22 /* Assets.xcassets */,
+				C395733C20A2E24600533D22 /* LaunchScreen.storyboard */,
+				C395733F20A2E24600533D22 /* Info.plist */,
+				C395734020A2E24600533D22 /* main.m */,
+			);
+			path = bankVerify;
+			sourceTree = "<group>";
+		};
+		C395734920A2E24600533D22 /* bankVerifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C395734A20A2E24700533D22 /* bankVerifyTests.m */,
+				C395734C20A2E24700533D22 /* Info.plist */,
+			);
+			path = bankVerifyTests;
+			sourceTree = "<group>";
+		};
+		C395735420A2E24700533D22 /* bankVerifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C395735520A2E24700533D22 /* bankVerifyUITests.m */,
+				C395735720A2E24700533D22 /* Info.plist */,
+			);
+			path = bankVerifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C395732D20A2E24600533D22 /* bankVerify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C395735A20A2E24700533D22 /* Build configuration list for PBXNativeTarget "bankVerify" */;
+			buildPhases = (
+				C395732A20A2E24600533D22 /* Sources */,
+				C395732B20A2E24600533D22 /* Frameworks */,
+				C395732C20A2E24600533D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bankVerify;
+			productName = bankVerify;
+			productReference = C395732E20A2E24600533D22 /* bankVerify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C395734520A2E24600533D22 /* bankVerifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C395735D20A2E24700533D22 /* Build configuration list for PBXNativeTarget "bankVerifyTests" */;
+			buildPhases = (
+				C395734220A2E24600533D22 /* Sources */,
+				C395734320A2E24600533D22 /* Frameworks */,
+				C395734420A2E24600533D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C395734820A2E24600533D22 /* PBXTargetDependency */,
+			);
+			name = bankVerifyTests;
+			productName = bankVerifyTests;
+			productReference = C395734620A2E24600533D22 /* bankVerifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C395735020A2E24700533D22 /* bankVerifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C395736020A2E24700533D22 /* Build configuration list for PBXNativeTarget "bankVerifyUITests" */;
+			buildPhases = (
+				C395734D20A2E24700533D22 /* Sources */,
+				C395734E20A2E24700533D22 /* Frameworks */,
+				C395734F20A2E24700533D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C395735320A2E24700533D22 /* PBXTargetDependency */,
+			);
+			name = bankVerifyUITests;
+			productName = bankVerifyUITests;
+			productReference = C395735120A2E24700533D22 /* bankVerifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C395732620A2E24600533D22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "童川 QQ:731358928";
+				TargetAttributes = {
+					C395732D20A2E24600533D22 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					C395734520A2E24600533D22 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C395732D20A2E24600533D22;
+					};
+					C395735020A2E24700533D22 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C395732D20A2E24600533D22;
+					};
+				};
+			};
+			buildConfigurationList = C395732920A2E24600533D22 /* Build configuration list for PBXProject "bankVerify" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C395732520A2E24600533D22;
+			productRefGroup = C395732F20A2E24600533D22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C395732D20A2E24600533D22 /* bankVerify */,
+				C395734520A2E24600533D22 /* bankVerifyTests */,
+				C395735020A2E24700533D22 /* bankVerifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C395732C20A2E24600533D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C395733E20A2E24600533D22 /* LaunchScreen.storyboard in Resources */,
+				C395733B20A2E24600533D22 /* Assets.xcassets in Resources */,
+				C395733920A2E24600533D22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C395734420A2E24600533D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C395734F20A2E24700533D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C395732A20A2E24600533D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C395733620A2E24600533D22 /* ViewController.m in Sources */,
+				C395734120A2E24600533D22 /* main.m in Sources */,
+				C395733320A2E24600533D22 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C395734220A2E24600533D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C395734B20A2E24700533D22 /* bankVerifyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C395734D20A2E24700533D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C395735620A2E24700533D22 /* bankVerifyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C395734820A2E24600533D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C395732D20A2E24600533D22 /* bankVerify */;
+			targetProxy = C395734720A2E24600533D22 /* PBXContainerItemProxy */;
+		};
+		C395735320A2E24700533D22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C395732D20A2E24600533D22 /* bankVerify */;
+			targetProxy = C395735220A2E24700533D22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C395733720A2E24600533D22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C395733820A2E24600533D22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C395733C20A2E24600533D22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C395733D20A2E24600533D22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C395735820A2E24700533D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C395735920A2E24700533D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C395735B20A2E24700533D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V6YYUS7E9;
+				INFOPLIST_FILE = bankVerify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfbb.ios.douyu.bankVerify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C395735C20A2E24700533D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V6YYUS7E9;
+				INFOPLIST_FILE = bankVerify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfbb.ios.douyu.bankVerify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C395735E20A2E24700533D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V6YYUS7E9;
+				INFOPLIST_FILE = bankVerifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfbb.ios.douyu.bankVerifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bankVerify.app/bankVerify";
+			};
+			name = Debug;
+		};
+		C395735F20A2E24700533D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V6YYUS7E9;
+				INFOPLIST_FILE = bankVerifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfbb.ios.douyu.bankVerifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bankVerify.app/bankVerify";
+			};
+			name = Release;
+		};
+		C395736120A2E24700533D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V6YYUS7E9;
+				INFOPLIST_FILE = bankVerifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfbb.ios.douyu.bankVerifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bankVerify;
+			};
+			name = Debug;
+		};
+		C395736220A2E24700533D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V6YYUS7E9;
+				INFOPLIST_FILE = bankVerifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfbb.ios.douyu.bankVerifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bankVerify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C395732920A2E24600533D22 /* Build configuration list for PBXProject "bankVerify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C395735820A2E24700533D22 /* Debug */,
+				C395735920A2E24700533D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C395735A20A2E24700533D22 /* Build configuration list for PBXNativeTarget "bankVerify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C395735B20A2E24700533D22 /* Debug */,
+				C395735C20A2E24700533D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C395735D20A2E24700533D22 /* Build configuration list for PBXNativeTarget "bankVerifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C395735E20A2E24700533D22 /* Debug */,
+				C395735F20A2E24700533D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C395736020A2E24700533D22 /* Build configuration list for PBXNativeTarget "bankVerifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C395736120A2E24700533D22 /* Debug */,
+				C395736220A2E24700533D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C395732620A2E24600533D22 /* Project object */;
+}
