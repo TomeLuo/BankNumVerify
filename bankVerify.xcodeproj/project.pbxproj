@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C34DB04E20A5810B00183412 /* TCCardNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C395736E20A4447600533D22 /* TCCardNumberFormatter.m */; };
+		C34DB04F20A5811000183412 /* UITextField+TCRange.m in Sources */ = {isa = PBXBuildFile; fileRef = C395737020A4447600533D22 /* UITextField+TCRange.m */; };
+		C34DB05020A5812000183412 /* BankNumFormatterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C395737320A4447600533D22 /* BankNumFormatterController.m */; };
+		C34DB05120A5812000183412 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C395737520A4447600533D22 /* ViewController.m */; };
+		C34DB05720A5983600183412 /* TCScanManagerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C34DB05620A5983600183412 /* TCScanManagerControl.m */; };
+		C34DB05A20A59A7E00183412 /* RectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C34DB05920A59A7E00183412 /* RectManager.m */; };
+		C34DB05F20A59AB900183412 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = C34DB05B20A59AB900183412 /* UIImage+Extend.m */; };
+		C34DB06020A59AB900183412 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = C34DB05E20A59AB900183412 /* UIColor+expanded.m */; };
+		C34DB06320A59B0800183412 /* BankCardSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = C34DB06220A59B0800183412 /* BankCardSearch.m */; };
+		C34DB06920A5A1E700183412 /* TCScanResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C34DB06820A5A1E700183412 /* TCScanResultModel.m */; };
 		C395733320A2E24600533D22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C395733220A2E24600533D22 /* AppDelegate.m */; };
-		C395733620A2E24600533D22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C395733520A2E24600533D22 /* ViewController.m */; };
 		C395733920A2E24600533D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C395733720A2E24600533D22 /* Main.storyboard */; };
 		C395733B20A2E24600533D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C395733A20A2E24600533D22 /* Assets.xcassets */; };
 		C395733E20A2E24600533D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C395733C20A2E24600533D22 /* LaunchScreen.storyboard */; };
 		C395734120A2E24600533D22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C395734020A2E24600533D22 /* main.m */; };
 		C395734B20A2E24700533D22 /* bankVerifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C395734A20A2E24700533D22 /* bankVerifyTests.m */; };
 		C395735620A2E24700533D22 /* bankVerifyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C395735520A2E24700533D22 /* bankVerifyUITests.m */; };
+		C395738720A448F000533D22 /* TCScanBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C395738620A448F000533D22 /* TCScanBaseManager.m */; };
+		C395738A20A5746700533D22 /* TCSanManagerInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = C395738920A5746400533D22 /* TCSanManagerInitialize.m */; };
+		C3B793C420A962F800072436 /* TCBankOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B793C320A962F800072436 /* TCBankOverlayView.m */; };
+		C3B793C720A96B7C00072436 /* TCBankScanViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B793C620A96B7C00072436 /* TCBankScanViewcontroller.m */; };
+		C3B793CA20A96E3700072436 /* TCScanManger.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B793C920A96E3700072436 /* TCScanManger.m */; };
+		C3B793D720A97DD300072436 /* libbankcard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B793D020A97C7300072436 /* libbankcard.a */; };
+		C3B793D820A97DE000072436 /* libexidcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B793D620A97C7900072436 /* libexidcardios.a */; };
+		C3B793D920A97DEA00072436 /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = C3B793D420A97C7900072436 /* zocr0.lib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +52,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C34DB05520A5983600183412 /* TCScanManagerControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCScanManagerControl.h; sourceTree = "<group>"; };
+		C34DB05620A5983600183412 /* TCScanManagerControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCScanManagerControl.m; sourceTree = "<group>"; };
+		C34DB05820A59A7E00183412 /* RectManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectManager.h; sourceTree = "<group>"; };
+		C34DB05920A59A7E00183412 /* RectManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RectManager.m; sourceTree = "<group>"; };
+		C34DB05B20A59AB900183412 /* UIImage+Extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		C34DB05C20A59AB900183412 /* UIImage+Extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		C34DB05D20A59AB900183412 /* UIColor+expanded.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		C34DB05E20A59AB900183412 /* UIColor+expanded.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		C34DB06120A59B0800183412 /* BankCardSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankCardSearch.h; sourceTree = "<group>"; };
+		C34DB06220A59B0800183412 /* BankCardSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankCardSearch.m; sourceTree = "<group>"; };
+		C34DB06720A5A1E700183412 /* TCScanResultModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCScanResultModel.h; sourceTree = "<group>"; };
+		C34DB06820A5A1E700183412 /* TCScanResultModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCScanResultModel.m; sourceTree = "<group>"; };
 		C395732E20A2E24600533D22 /* bankVerify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bankVerify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C395733120A2E24600533D22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C395733220A2E24600533D22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C395733420A2E24600533D22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C395733520A2E24600533D22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C395733820A2E24600533D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C395733A20A2E24600533D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C395733D20A2E24600533D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +78,32 @@
 		C395735120A2E24700533D22 /* bankVerifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bankVerifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C395735520A2E24700533D22 /* bankVerifyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bankVerifyUITests.m; sourceTree = "<group>"; };
 		C395735720A2E24700533D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C395736D20A4447600533D22 /* TCCardNumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCCardNumberFormatter.h; sourceTree = "<group>"; };
+		C395736E20A4447600533D22 /* TCCardNumberFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCCardNumberFormatter.m; sourceTree = "<group>"; };
+		C395736F20A4447600533D22 /* UITextField+TCRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+TCRange.h"; sourceTree = "<group>"; };
+		C395737020A4447600533D22 /* UITextField+TCRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TCRange.m"; sourceTree = "<group>"; };
+		C395737220A4447600533D22 /* BankNumFormatterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankNumFormatterController.h; sourceTree = "<group>"; };
+		C395737320A4447600533D22 /* BankNumFormatterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankNumFormatterController.m; sourceTree = "<group>"; };
+		C395737420A4447600533D22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C395737520A4447600533D22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C395738520A448F000533D22 /* TCScanBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCScanBaseManager.h; sourceTree = "<group>"; };
+		C395738620A448F000533D22 /* TCScanBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCScanBaseManager.m; sourceTree = "<group>"; };
+		C395738820A5746400533D22 /* TCSanManagerInitialize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCSanManagerInitialize.h; sourceTree = "<group>"; };
+		C395738920A5746400533D22 /* TCSanManagerInitialize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCSanManagerInitialize.m; sourceTree = "<group>"; };
+		C3B793C220A962F800072436 /* TCBankOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCBankOverlayView.h; sourceTree = "<group>"; };
+		C3B793C320A962F800072436 /* TCBankOverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCBankOverlayView.m; sourceTree = "<group>"; };
+		C3B793C520A96B7C00072436 /* TCBankScanViewcontroller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCBankScanViewcontroller.h; sourceTree = "<group>"; };
+		C3B793C620A96B7C00072436 /* TCBankScanViewcontroller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCBankScanViewcontroller.m; sourceTree = "<group>"; };
+		C3B793C820A96E3700072436 /* TCScanManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCScanManger.h; sourceTree = "<group>"; };
+		C3B793C920A96E3700072436 /* TCScanManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCScanManger.m; sourceTree = "<group>"; };
+		C3B793CC20A97C7300072436 /* BankCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankCard.h; sourceTree = "<group>"; };
+		C3B793CD20A97C7300072436 /* exbankcard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exbankcard.h; sourceTree = "<group>"; };
+		C3B793CF20A97C7300072436 /* exbankcardcore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exbankcardcore.h; sourceTree = "<group>"; };
+		C3B793D020A97C7300072436 /* libbankcard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbankcard.a; sourceTree = "<group>"; };
+		C3B793D220A97C7900072436 /* commondef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
+		C3B793D420A97C7900072436 /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		C3B793D520A97C7900072436 /* excards.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		C3B793D620A97C7900072436 /* libexidcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexidcardios.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +111,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B793D820A97DE000072436 /* libexidcardios.a in Frameworks */,
+				C3B793D720A97DD300072436 /* libbankcard.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +133,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C34DB05220A5823900183412 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C395732520A2E24600533D22 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +147,7 @@
 				C395734920A2E24600533D22 /* bankVerifyTests */,
 				C395735420A2E24700533D22 /* bankVerifyUITests */,
 				C395732F20A2E24600533D22 /* Products */,
+				C34DB05220A5823900183412 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +164,14 @@
 		C395733020A2E24600533D22 /* bankVerify */ = {
 			isa = PBXGroup;
 			children = (
+				C3B793C120A962B400072436 /* View */,
+				C395736C20A4447600533D22 /* Tool1 */,
+				C395738420A445BB00533D22 /* Tool2 */,
+				C395737620A4454A00533D22 /* Resources */,
+				C395737120A4447600533D22 /* ViewController */,
+				C395733720A2E24600533D22 /* Main.storyboard */,
 				C395733120A2E24600533D22 /* AppDelegate.h */,
 				C395733220A2E24600533D22 /* AppDelegate.m */,
-				C395733420A2E24600533D22 /* ViewController.h */,
-				C395733520A2E24600533D22 /* ViewController.m */,
-				C395733720A2E24600533D22 /* Main.storyboard */,
 				C395733A20A2E24600533D22 /* Assets.xcassets */,
 				C395733C20A2E24600533D22 /* LaunchScreen.storyboard */,
 				C395733F20A2E24600533D22 /* Info.plist */,
@@ -130,6 +196,119 @@
 				C395735720A2E24700533D22 /* Info.plist */,
 			);
 			path = bankVerifyUITests;
+			sourceTree = "<group>";
+		};
+		C395736C20A4447600533D22 /* Tool1 */ = {
+			isa = PBXGroup;
+			children = (
+				C395736D20A4447600533D22 /* TCCardNumberFormatter.h */,
+				C395736E20A4447600533D22 /* TCCardNumberFormatter.m */,
+				C395736F20A4447600533D22 /* UITextField+TCRange.h */,
+				C395737020A4447600533D22 /* UITextField+TCRange.m */,
+			);
+			path = Tool1;
+			sourceTree = "<group>";
+		};
+		C395737120A4447600533D22 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C3B793C520A96B7C00072436 /* TCBankScanViewcontroller.h */,
+				C3B793C620A96B7C00072436 /* TCBankScanViewcontroller.m */,
+				C395737220A4447600533D22 /* BankNumFormatterController.h */,
+				C395737320A4447600533D22 /* BankNumFormatterController.m */,
+				C395737420A4447600533D22 /* ViewController.h */,
+				C395737520A4447600533D22 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C395737620A4454A00533D22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C395737720A4454A00533D22 /* ScanBank */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C395737720A4454A00533D22 /* ScanBank */ = {
+			isa = PBXGroup;
+			children = (
+				C3B793D120A97C7900072436 /* libexidcard */,
+				C3B793CB20A97C7300072436 /* bank_io */,
+			);
+			path = ScanBank;
+			sourceTree = "<group>";
+		};
+		C395738420A445BB00533D22 /* Tool2 */ = {
+			isa = PBXGroup;
+			children = (
+				C34DB06720A5A1E700183412 /* TCScanResultModel.h */,
+				C34DB06820A5A1E700183412 /* TCScanResultModel.m */,
+				C34DB06120A59B0800183412 /* BankCardSearch.h */,
+				C34DB06220A59B0800183412 /* BankCardSearch.m */,
+				C34DB05D20A59AB900183412 /* UIColor+expanded.h */,
+				C34DB05E20A59AB900183412 /* UIColor+expanded.m */,
+				C34DB05C20A59AB900183412 /* UIImage+Extend.h */,
+				C34DB05B20A59AB900183412 /* UIImage+Extend.m */,
+				C34DB05820A59A7E00183412 /* RectManager.h */,
+				C34DB05920A59A7E00183412 /* RectManager.m */,
+				C395738520A448F000533D22 /* TCScanBaseManager.h */,
+				C395738620A448F000533D22 /* TCScanBaseManager.m */,
+				C395738820A5746400533D22 /* TCSanManagerInitialize.h */,
+				C395738920A5746400533D22 /* TCSanManagerInitialize.m */,
+				C34DB05520A5983600183412 /* TCScanManagerControl.h */,
+				C34DB05620A5983600183412 /* TCScanManagerControl.m */,
+				C3B793C820A96E3700072436 /* TCScanManger.h */,
+				C3B793C920A96E3700072436 /* TCScanManger.m */,
+			);
+			path = Tool2;
+			sourceTree = "<group>";
+		};
+		C3B793C120A962B400072436 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3B793C220A962F800072436 /* TCBankOverlayView.h */,
+				C3B793C320A962F800072436 /* TCBankOverlayView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3B793CB20A97C7300072436 /* bank_io */ = {
+			isa = PBXGroup;
+			children = (
+				C3B793CC20A97C7300072436 /* BankCard.h */,
+				C3B793CD20A97C7300072436 /* exbankcard.h */,
+				C3B793CE20A97C7300072436 /* exbankcardcore */,
+			);
+			path = bank_io;
+			sourceTree = "<group>";
+		};
+		C3B793CE20A97C7300072436 /* exbankcardcore */ = {
+			isa = PBXGroup;
+			children = (
+				C3B793CF20A97C7300072436 /* exbankcardcore.h */,
+				C3B793D020A97C7300072436 /* libbankcard.a */,
+			);
+			path = exbankcardcore;
+			sourceTree = "<group>";
+		};
+		C3B793D120A97C7900072436 /* libexidcard */ = {
+			isa = PBXGroup;
+			children = (
+				C3B793D220A97C7900072436 /* commondef.h */,
+				C3B793D320A97C7900072436 /* dicts */,
+				C3B793D520A97C7900072436 /* excards.h */,
+				C3B793D620A97C7900072436 /* libexidcardios.a */,
+			);
+			path = libexidcard;
+			sourceTree = "<group>";
+		};
+		C3B793D320A97C7900072436 /* dicts */ = {
+			isa = PBXGroup;
+			children = (
+				C3B793D420A97C7900072436 /* zocr0.lib */,
+			);
+			path = dicts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +373,7 @@
 		C395732620A2E24600533D22 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TC;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "童川 QQ:731358928";
 				TargetAttributes = {
@@ -238,6 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B793D920A97DEA00072436 /* zocr0.lib in Resources */,
 				C395733E20A2E24600533D22 /* LaunchScreen.storyboard in Resources */,
 				C395733B20A2E24600533D22 /* Assets.xcassets in Resources */,
 				C395733920A2E24600533D22 /* Main.storyboard in Resources */,
@@ -265,9 +446,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C395733620A2E24600533D22 /* ViewController.m in Sources */,
+				C34DB05020A5812000183412 /* BankNumFormatterController.m in Sources */,
+				C34DB05F20A59AB900183412 /* UIImage+Extend.m in Sources */,
+				C34DB06020A59AB900183412 /* UIColor+expanded.m in Sources */,
+				C34DB05A20A59A7E00183412 /* RectManager.m in Sources */,
+				C34DB05120A5812000183412 /* ViewController.m in Sources */,
+				C34DB04F20A5811000183412 /* UITextField+TCRange.m in Sources */,
+				C34DB04E20A5810B00183412 /* TCCardNumberFormatter.m in Sources */,
+				C34DB05720A5983600183412 /* TCScanManagerControl.m in Sources */,
+				C3B793C420A962F800072436 /* TCBankOverlayView.m in Sources */,
+				C3B793CA20A96E3700072436 /* TCScanManger.m in Sources */,
+				C34DB06920A5A1E700183412 /* TCScanResultModel.m in Sources */,
 				C395734120A2E24600533D22 /* main.m in Sources */,
+				C395738A20A5746700533D22 /* TCSanManagerInitialize.m in Sources */,
+				C3B793C720A96B7C00072436 /* TCBankScanViewcontroller.m in Sources */,
+				C34DB06320A59B0800183412 /* BankCardSearch.m in Sources */,
 				C395733320A2E24600533D22 /* AppDelegate.m in Sources */,
+				C395738720A448F000533D22 /* TCScanBaseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +627,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8V6YYUS7E9;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = bankVerify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cfbb.ios.douyu.bankVerify;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/bankVerify/Resources/ScanBank/bank_io/exbankcardcore",
+					"$(PROJECT_DIR)/bankVerify/Resources/ScanBank/libexidcard",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfbb.ios.bankVerify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -446,9 +649,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8V6YYUS7E9;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = bankVerify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cfbb.ios.douyu.bankVerify;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/bankVerify/Resources/ScanBank/bank_io/exbankcardcore",
+					"$(PROJECT_DIR)/bankVerify/Resources/ScanBank/libexidcard",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cfbb.ios.bankVerify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
